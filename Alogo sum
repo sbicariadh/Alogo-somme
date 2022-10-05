@@ -1,0 +1,39 @@
+ALGORITHM Somme elem diff
+VAR
+    tab1,tab2 =array_name ARRAY_OF type[];
+    sum :number ;
+
+BEGIN
+    read tab1;
+    read tab2;
+    FOR i FROM 1 TO tab1.length STEP  i++ DO
+    FOR j FROM 1 TO tab2.length STEP  j++  DO
+    if tab1[i]<>tab[j]
+    sum :tab[i]+tab[j]
+    
+    write :"voici la somme",sum;
+        
+    END_FOR
+        
+    END_FOR
+END
+
+ALGORITHM Somme elem egau
+VAR
+    tab1,tab2 =array_name ARRAY_OF type[];
+    sum :number ;
+
+BEGIN
+    read tab1;
+    read tab2;
+    FOR i FROM 1 TO tab1.length STEP  i++ DO
+    FOR j FROM 1 TO tab2.length STEP  j++  DO
+    if tab1[i]==tab[j]
+    sum :tab[i]*2
+    
+    write :"voici la somme",sum;
+        
+    END_FOR
+        
+    END_FOR
+END
